@@ -31,6 +31,10 @@ No todos los que interactúan con una BD tienen el mismo nivel técnico:
 3.  **Programadores de aplicaciones:** Nosotros. Escribimos código (Java, Kotlin, Python) que se comunica con el SGBD mediante SQL.
 4.  **Administradores (DBA):** Los "dueños" del sistema.
 
+Se ha hecho una modificación el día 07/06/2026
+
+
 :::tip Motivación
 Como desarrollador de DAM, tu rol principal será el de **Programador de aplicaciones**, pero entender las tareas del **DBA** te hará escribir código mucho más eficiente y escalable.
 :::
+
