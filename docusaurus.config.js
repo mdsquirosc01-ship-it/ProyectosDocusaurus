@@ -23,12 +23,12 @@ const config = {
   url: 'https://mdsquirosc01.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ProyectoDocusaurus/',
+  baseUrl: '/ProyectosDocusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mdsquirosc01', // Usually your GitHub org/user name.
-  projectName: 'ProyectoDocusaurus', // Usually your repo name.
+  projectName: 'ProyectosDocusaurus', // Usually your repo name.
   deploymentBranch: 'gh-pages', // Set the branch name
   trailingSlash: false,
 
@@ -51,9 +51,9 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
+          /*editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        */},
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -62,9 +62,9 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
+          /*editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+          *//// Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
