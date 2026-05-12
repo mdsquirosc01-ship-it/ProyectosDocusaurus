@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Primera Actividad',
+  title: 'ProyectoDocu1',
   tagline: 'Empezando con Docusaurus',
   favicon: 'img/favicon.ico',
 
@@ -20,15 +20,17 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://mdsquirosc01.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ProyectoDocusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'mdsquirosc01', // Usually your GitHub org/user name.
+  projectName: 'ProyectoDocusaurus', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // Set the branch name
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
